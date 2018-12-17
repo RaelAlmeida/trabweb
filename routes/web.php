@@ -11,8 +11,7 @@
 |
 */
 
-Route::get('/copadomundo',function ;
-           
+   
 Route::get('/home', 'Album@listar');
 
 Route::get('/sobre', function () {
