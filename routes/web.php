@@ -10,8 +10,10 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/adicionar/usuario', 'usuario@listar');   
+Route::get('/listar/usuario', 'adicionar@listar');
 
-   
+
 Route::get('/home', 'Album@listar');
 
 Route::get('/sobre', function () {
